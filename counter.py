@@ -12,6 +12,7 @@ class WordCounter:
                 if current_word:
                     words.append(current_word)
                     current_word = ""
+
         if current_word:
             words.append(current_word)
 
